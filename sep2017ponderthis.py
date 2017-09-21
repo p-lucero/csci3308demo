@@ -13,6 +13,8 @@
 #
 # outstream.close()
 
+print "This is an edit to this file on the testing-new-files branch"
+
 instream = open("chess3.txt", "rb")
 starts = set(["%s" % line.strip() for line in instream])
 # starts = set(["RNBQKBNR"])
