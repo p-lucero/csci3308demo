@@ -6,6 +6,8 @@ if [[ $# -ne 1 ]]; then
 	exit 1
 fi
 
+echo "foo"
+
 grep -c -E "[0-9]$" $1
 grep -c -E "^[^aeiouAEIOU]" $1
 grep -c -E "^[a-zA-Z]{12}$" $1
